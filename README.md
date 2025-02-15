@@ -12,6 +12,13 @@ This project predicts Meta’s (META) stock price movements using machine learni
 
 ---
 
+## Key Learnings  
+- **Balancing Precision and Recall**: Lowering the prediction threshold improved recall but required careful tuning to avoid excessive false positives.  
+- **Risk Management**: Adding stop-loss rules and holding periods reduced drawdowns and improved risk-adjusted returns.  
+- **Realism in Backtesting**: Incorporating slippage and transaction costs made the strategy more realistic and credible.  
+
+---
+
 ## Problem-Solving Journey  
 
 ### **1. Initial Challenges**  
@@ -107,31 +114,16 @@ I selected the following features based on their relevance to stock price moveme
 
 ---
 
-## Key Learnings  
-- **Balancing Precision and Recall**: Lowering the prediction threshold improved recall but required careful tuning to avoid excessive false positives.  
-- **Risk Management**: Adding stop-loss rules and holding periods reduced drawdowns and improved risk-adjusted returns.  
-- **Realism in Backtesting**: Incorporating slippage and transaction costs made the strategy more realistic and credible.  
-
----
-
 ## Visualizations  
-![Portfolio Performance]
-<iframe
-  src="portfolio_performance.html"
-  width="800"
-  height="600"
-  frameborder="0"
-></iframe>
+### Portfolio Performance Visualization
 
-![Price vs. Predictions]
-<iframe
-  src="price_vs_prediction.html"
-  width="800"
-  height="600"
-  frameborder="0"
-></iframe>
+[View Interactive Plot](https://jbatbayar.github.io/stock_price_prediction/portfolio_performance.html)
 
-![SHAP Features](shap_summary.png)  
+### Price vs Predictions
+[View Interactive Plot](https://jbatbayar.github.io/stock_price_prediction/price_vs_predictions.html)
+
+### SHAP Features
+(shap_summary.png)  
 
 ---
 
